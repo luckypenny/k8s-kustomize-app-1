@@ -1,0 +1,23 @@
+apiVersion: ENC[AES256_GCM,data:vYY=,iv:6xEu3fp473w/OcgR4njZQjw6xsCIwphHxx+dgWhRTA0=,tag:xPXEuEoai3pw8zOHK9YoKQ==,type:str]
+data:
+    key1: ENC[AES256_GCM,data:0UdKvrUpLA==,iv:/tdmfBHmwRpuJkcD0f8NfEbRhvb3f0S3BMwVdNxpQ+M=,tag:5qJe+jtJXIWIfYP9B1w4+Q==,type:str]
+    key2: ENC[AES256_GCM,data:eSttIbNJXw==,iv:t/GICwfUl0LaTCoqI6jgHG7bLij3/qQG2QE4QB+9gsc=,tag:uFMf57KDsmh+yBoQF97jtg==,type:str]
+kind: ENC[AES256_GCM,data:xFLnthIhkQf8,iv:7rpKa3usE3UlHaIqbASp8fzG5yD1BJQwK+CdLdSi67A=,tag:RPhMoKhevz1weO80tiGxJw==,type:str]
+metadata:
+    creationTimestamp: null
+    name: ENC[AES256_GCM,data:T+y25qBNu/4G,iv:8CdYD7UzR4ZZM7y9ZalFUg5RbcRGg2p+rfsCZnD/zQw=,tag:3BsI3B6H+hd5pU+756OxhQ==,type:str]
+sops:
+    kms:
+        - arn: arn:aws:kms:ap-northeast-2:074017796595:key/f4a013e7-2131-4f6f-ba91-0a600a03635e
+          created_at: "2022-08-12T16:02:32Z"
+          enc: AQICAHi2tPH/eqoxDyCOismJKVRS/coMwaKcp+OyPOWc0BZQXgFfXmse6UoNdS79yiMJQ11BAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM6gJqp+oWOZL7/FRwAgEQgDvHHzhnWAkCR2XJUIaN05RhOHIDgsNJKkoBUYv8qsjcz3gDIf7GSrtkjkpQQ1cgi/NsTo2LQ+Mq5oj9tg==
+          aws_profile: ""
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-08-12T16:02:32Z"
+    mac: ENC[AES256_GCM,data:+U/4CVm2CDSdB1w6mQwFIh4yOiI2Yq+6jW0wrnPb3mpG8kPLaaWvp6LatuniVmH6zKbmnyi7Yd8PRagbFDpH87JjXBQ9oNgMtgGAiO9LNKNY0duiFG7RST7Ya0tjr3ofrrUs/9xQIC1ZNylqDkXtVfwZr3pKtp4KzzO0PLDilcc=,iv:Sn4tXMAtt39Qr7mFeyro5Oe4p3eEfqbhUaE7O7X7V4E=,tag:JrA6nXx4+OlfOBetKiHrEQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
